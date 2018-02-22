@@ -10,10 +10,10 @@ a Github app build from pro-bot that listens for any pull request, checks all it
 3. Allow access to repositories
 
 # Screenshots
-
-- ![Passing](https://github.com/dexter816/minions-bananas/blob/master/failing.png)
-
-- ![Failing](https://github.com/dexter816/minions-bananas/blob/master/failing.png)
+- PASSING
+![Passing](https://github.com/dexter816/minions-bananas/blob/master/failing.png)
+- FAILING
+ ![Failing](https://github.com/dexter816/minions-bananas/blob/master/failing.png)
 
 # Contributors
 - [Arpita2012](https://github.com/Arpita2012)
