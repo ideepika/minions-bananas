@@ -5,15 +5,15 @@
 a Github app build from pro-bot that listens for any pull request, checks all its commits for containing the word "banana" and giving the status "passing" and "failing" based on it.
 
 # Usage
-1. Install the app minions & bananas [sudo apt-get install apt-transport-https] on any repository
+1. Install the app minions & bananas [https://github.com/apps/minions-bananas] on any repository
 2. Accept the permissions
 3. Allow access to repositories
 
 # Screenshots
 
-- Passing[https://raw.github.com/dexter816/minions-bananas/passing.png]
+- Passing [https://github.com/dexter816/minions-bananas/blob/master/failing.png]
 
-- Failing[https://raw.github.com/dexter816/minions-bananas/failing.png]-
+- Failing [https://github.com/dexter816/minions-bananas/blob/master/failing.png]
 
 # Contributors
 - Arpita2012[https://github.com/Arpita2012]
