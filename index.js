@@ -1,6 +1,6 @@
 module.exports = (robot) => {
   //activated our robot to listen for pull request webhook
-  robot.on('pull_requests', async context => {
+  robot.on('pull_request', async context => {
      
       const pull_requests = context.payload.pull_request;
    //getting commits in that pull request
