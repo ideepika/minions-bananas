@@ -3,14 +3,14 @@ module.exports = (robot) => {
   robot.on('pull_request', async context => {
      
       const pull_requests = context.payload.pull_request;
-   //getting commits in that pull request
-      const commits = await context.github.repos.compareCommits(context.repo({
+   //getting all_commits in that pull request
+      const all_commits = await context.github.repos.compareCommits(context.repo({
           base: pull_requests.base.sha,
           head: pull_requests.head.sha 
       }));
 
    //does all commits contain banana
-      const check_banana = compare.data.commits.every(data => {
+      const check_banana = all_commits.data.commits.every(data => {
           return data.commit.message.match(/bananas/i);
       });
 
