@@ -13,7 +13,7 @@ a Github app build from pro-bot that listens for any pull request, checks all it
 
 - PASSING
 
-![Passing](https://github.com/dexter816/minions-bananas/blob/master/failing.png)
+![Passing](https://github.com/dexter816/minions-bananas/blob/master/passing.png)
 
 - FAILING
 
